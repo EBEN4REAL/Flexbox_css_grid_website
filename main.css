@@ -8,6 +8,7 @@ body {
 }
 nav ul {
     list-style-type: none;
+    display: none;
 }
 nav ul a {
     display: block;
@@ -26,12 +27,15 @@ nav ul a:hover{
 }
 .nav-container img {
     width: 100px;
+    align-self: center;
 }
 .nav-container {
     padding: 0px 10px;
     background: #474747;
     border-bottom: 3px solid #ad343e;
     display: flex;
+    justify-content: space-between;
+    
 }
 .bar{
     width: 30px;
@@ -42,4 +46,11 @@ nav ul a:hover{
 .btn{
     display: inline-block;
     border: 2px solid #ad343e;
+    align-self: center
 } 
+header{
+    min-height: 100vh;
+    background: url(https://infipost.com/wp-content/uploads/2017/03/2015-lada-raven-supercar-concept-2-HD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
