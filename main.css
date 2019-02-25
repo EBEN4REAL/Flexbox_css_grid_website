@@ -26,7 +26,7 @@ nav ul a:hover{
     padding-left: 30px;
 }
 .nav-container img {
-    width: 100px;
+    width: 60px;
     align-self: center;
 }
 .nav-container {
@@ -53,4 +53,8 @@ header{
     background: url(https://infipost.com/wp-content/uploads/2017/03/2015-lada-raven-supercar-concept-2-HD.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    
 }
