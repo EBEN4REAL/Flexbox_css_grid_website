@@ -24,3 +24,11 @@ nav ul a:hover{
     color: #e0e0e0;
     padding-left: 30px;
 }
+.nav-container img {
+    width: 100px;
+}
+.nav-container {
+    padding: 0 20px;
+    background: #474747;
+    border-bottom: 3px solid #ad343e;
+}
