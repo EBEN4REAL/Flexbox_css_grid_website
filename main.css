@@ -28,7 +28,16 @@ nav ul a:hover{
     width: 100px;
 }
 .nav-container {
-    padding: 0 20px;
+    padding: 0px 10px;
     background: #474747;
     border-bottom: 3px solid #ad343e;
 }
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 7px;
+    background: #ad343e;
+}
+.btn{
+    display: inline-block;
+} 
