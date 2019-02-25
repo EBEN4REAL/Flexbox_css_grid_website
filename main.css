@@ -66,4 +66,15 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ad343e;
+}
+.banner h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #0d1317;
 }
