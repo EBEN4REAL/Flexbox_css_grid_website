@@ -22,4 +22,5 @@ nav ul a {
 nav ul a:hover{
     background: #474747;
     color: #e0e0e0;
+    padding-left: 30px;
 }
