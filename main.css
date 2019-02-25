@@ -9,3 +9,17 @@ body {
 nav ul {
     list-style-type: none;
 }
+nav ul a {
+    display: block;
+    background: #0d1317;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ad343e;
+    transition: color 2s ease,  background 2s, ease, padding 1s ease;
+}
+nav ul a:hover{
+    background: #474747;
+    color: #e0e0e0;
+}
