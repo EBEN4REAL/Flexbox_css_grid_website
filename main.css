@@ -118,5 +118,14 @@ nav{
     nav ul{
         display: flex !important;
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: rgba(13,19,23,0.8);
+    }
+    nav ul a{
+        background: transparent;
+    }
+    nav li a:hover{
+        background: transparent;
     }
 }
