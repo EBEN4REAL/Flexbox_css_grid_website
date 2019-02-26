@@ -140,4 +140,12 @@ nav{
 .service{
     color: white;
     display: flex;
+    margin: 40px;
+}
+.service-icon{
+    align-self: center;
+    font-size: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
 }
