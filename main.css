@@ -133,5 +133,11 @@ nav{
 /* SERVICES */
 .services{
     min-height: 80vh;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNQCnanB8Dyqp8wejir53Zb6WSDry8dYsSJnBsGWnC6lu2rrqkw)center/cover fixed;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWrrBPgB43BwX70nv_Ag1I54A3xVQRZG3e4WeZAZpp31CX34Oy)center/cover fixed no-repeat;
+    display: flex;
+    align-items: center;
+}
+.service{
+    color: white;
+    display: flex;
 }
