@@ -194,6 +194,9 @@ nav{
     height: 4px;
     margin : 10 auto;
 }
+.title{
+    padding: 20px 25px;
+}
 .projects img{
     width: 100%;
     transition: opacity 2s ease, transform 2s ease;
@@ -213,6 +216,15 @@ nav{
         flex-wrap: wrap;
     }
     .project{
-        flex: 0 0 calc(505);
+        flex: 0 0 calc(50%);
+    }
+}
+@media screen and (min-width: 800px){
+    .projects-center{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project{
+        flex: 0 0 calc(25%);
     }
 }
