@@ -177,3 +177,20 @@ nav{
         width: 70%;
     }
 }
+
+/* PROJECTS */
+.projects{
+    padding-bottom: 100px;
+    background: #f5f3f5;
+}
+.title h2{
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-underline{
+    background: #ad343e;
+    width: 100px;
+    height: 4px;
+    margin: 10px auto;
+}
