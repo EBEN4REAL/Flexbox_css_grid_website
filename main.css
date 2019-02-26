@@ -76,7 +76,7 @@ nav{
 .banner h3{
     text-transform: capitalize;
     font-size: 30px;
-    color: #0d1317;
+    color: white;
 }
 .and{
     color: #f5f3f5;
@@ -91,7 +91,20 @@ nav{
     padding: 5px 10px;
     border-radius: 50%;
     color: #f5f3f5;
+    margin-right: 3px;
+    transition: 2s;
 }
 .banner img {
     width: 300px;
+}
+.banner-icons a:hover {
+    transform: translateY(-5px);
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.heading-text{
+    color: white;
 }
