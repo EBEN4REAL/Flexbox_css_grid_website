@@ -158,3 +158,13 @@ nav{
     padding: 20px;
     margin-right: 20px;
 }
+.service-text{
+    align-self: center;
+}
+.sevice-text h3{
+    text-transform: uppercase;
+}
+sevice-text p{
+    line-height: 2;
+    margin-top: 5px
+}
