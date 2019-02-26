@@ -116,6 +116,7 @@ nav{
         display: none;
     }
     nav ul{
-        display: flex;
+        display: flex !important;
+        width: 100%;
     }
 }
