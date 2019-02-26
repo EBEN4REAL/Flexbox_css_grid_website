@@ -169,3 +169,11 @@ nav{
         width: 70%;
     }
 }
+@media screen and  (min-width: 776px){
+    .service-center {
+        width: 50%;
+    }
+    .services-text p {
+        width: 70%;
+    }
+}
