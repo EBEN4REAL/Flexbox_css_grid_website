@@ -194,7 +194,16 @@ nav{
     height: 4px;
     margin : 10 auto;
 }
-.title{
+/* .title{
     padding: 50px 0;
+} */
+.projects img{
     width: 100%;
+    transition: opacity 2s ease, transform 2s ease;
+}
+.project{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7))
+}
+.projects img:hover{
+    opacity: 0.3
 }
