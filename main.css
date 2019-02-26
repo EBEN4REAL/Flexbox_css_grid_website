@@ -164,7 +164,6 @@ nav{
 .sevice-text h3{
     text-transform: uppercase;
 }
-sevice-text p{
-    line-height: 2;
-    margin-top: 5px
+@media screen (min-width: 576px){
+    
 }
