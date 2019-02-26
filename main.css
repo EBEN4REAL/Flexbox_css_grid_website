@@ -129,3 +129,9 @@ nav{
         background: transparent;
     }
 }
+
+/* SERVICES */
+.services{
+    min-height: 80vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNQCnanB8Dyqp8wejir53Zb6WSDry8dYsSJnBsGWnC6lu2rrqkw)center/cover fixed;
+}
