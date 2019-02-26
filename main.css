@@ -192,5 +192,6 @@ nav{
     background: #ad343e;
     width: 100px;
     height: 4px;
-    margin: 10px auto;
+    margin : 10 auto;
+    /* margin: 10px auto; */
 }
