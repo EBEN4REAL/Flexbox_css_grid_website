@@ -267,7 +267,7 @@ nav{
     align-items: center;
 }
 .contact-card{
-    background: rgba(255,255,255,0.6);
+    background: rgba(185, 172, 172, 0.6);
     flex:  0 0 80%;
     padding: 40px 0px;
     display: flex;
@@ -285,4 +285,37 @@ form input{
 form h3{
     text-align: center;
     text-transform: uppercase;
+    color: #ad343e;
+}
+form input, form textarea{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #ad343e;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    text-transform: uppercase;
+    color: #0d1317;
+}
+.form-btn{
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background: #ad343e;
+    border-radius: 40px;
+    color: #f5f3f5;
+    transition: color 1s ease-in-out, backgroun 1s ease-in-out;
+    border: 1px solid #ad343e
+}
+.form-btn:hover{
+    color: #ad343e;
+    background: #f5f3f5;
+    cursor: pointer;
+    border: 1px solid #f3f3f3;
+}
+
+footer{
+    background: #0d1317;
+    padding: 60px 0;
+    text-align: center;
 }
