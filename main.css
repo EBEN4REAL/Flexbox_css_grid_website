@@ -261,11 +261,11 @@ nav{
 /* Form section */
 .contact {
     min-height: 80vh;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWrrBPgB43BwX70nv_Ag1I54A3xVQRZG3e4WeZAZpp31CX34Oy)center/cover fixed no-repeat;
+    background: url(assets/img/car2.jpg)center/cover fixed no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contact-card{
-    background: rgb(0, 0, 0, 0.6);
+    background: rgba(0,0,0,0.6);
 }
