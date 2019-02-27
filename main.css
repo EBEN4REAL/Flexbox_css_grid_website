@@ -227,7 +227,7 @@ nav{
     background: url(assets/img/car8.jpg)center/cover fixed no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .about-card{
     background: rgba(255 , 255, 255, 0.6);
@@ -244,8 +244,10 @@ nav{
     color: #ad343e;
     margin: 20px 0;
 }
-.aboiut-card p{
+.about-card p{
     line-height: 2;
 }
 
-@media
+@media screen and (min-width: 776px){
+    .about-card
+}
