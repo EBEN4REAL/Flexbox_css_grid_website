@@ -232,4 +232,20 @@ nav{
 .about-card{
     background: rgba(255 , 255, 255, 0.6);
     text-align: center;
+    padding: 60px 40px;
 }
+.about-card h3{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.about-card .fa-car{
+    font-size: 60px;
+    color: #ad343e;
+    margin: 20px 0;
+}
+.aboiut-card p{
+    line-height: 2;
+}
+
+@media
