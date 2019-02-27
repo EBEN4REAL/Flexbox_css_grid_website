@@ -222,7 +222,7 @@ nav{
 
 /* About us Page */
 .about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 100px 0;
     background: url(assets/img/car8.jpg)center/cover fixed no-repeat;
     display: flex;
