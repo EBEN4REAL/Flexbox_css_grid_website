@@ -261,12 +261,13 @@ nav{
 /* Form section */
 .contact {
     min-height: 80vh;
-    background: url(assets/img/car2.jpg)center/cover fixed no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(assets/img/car2.jpg)center/cover fixed no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contact-card{
-    background: rgba(0,0,0,0.6);
+    background: rgba(255,255,255,0.6);
     flex:  0 0 80%;
+    padding: 40px 0px;
 }
