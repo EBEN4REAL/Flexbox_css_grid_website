@@ -249,5 +249,13 @@ nav{
 }
 
 @media screen and (min-width: 776px){
-    .about-card
+    .about-card{
+        max-width: 50%;
+        border-radius: 30px;
+    }
+    .abput-card p{
+        margin: 0 auto;
+    }
 }
+
+/* Form section */
