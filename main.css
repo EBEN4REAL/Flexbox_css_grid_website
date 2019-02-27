@@ -268,4 +268,5 @@ nav{
 }
 .contact-card{
     background: rgba(0,0,0,0.6);
+    flex:  0 0 80%;
 }
